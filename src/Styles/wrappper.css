@@ -1,0 +1,29 @@
+/* *{
+    display: flex;
+    justify-content: center;
+} */
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    position: relative;
+    left: 20%;
+}
+
+@media only screen and (max-width: 1024px) {
+    form {
+        position: relative;
+        left: 0;
+    }
+}
+@media only screen and (max-width: 430px) {
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
